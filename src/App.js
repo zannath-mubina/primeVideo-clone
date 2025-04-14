@@ -8,7 +8,7 @@ import PlayVideo from './PlayVideo.js';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/primeVideo-clone'>
       <div className="App">
         <Routes>
           <Route path='/Movies' element={
