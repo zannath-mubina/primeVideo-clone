@@ -1,0 +1,33 @@
+.footer_container {
+    background-color: #222222;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer > img {
+    max-height: 32px;
+    max-width: 100%;
+}
+
+.footer > p {
+    color: #8197a4;
+    margin-bottom: 0;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links p {
+    color: #79b8f3;
+    margin-bottom: 0;
+}

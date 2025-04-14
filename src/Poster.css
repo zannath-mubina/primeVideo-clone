@@ -1,0 +1,157 @@
+.poster_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+}
+
+.poster {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.poster > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.volumeButtons {
+    width: 100%;
+    opacity: 0;
+    display: none;
+    justify-content: flex-end;
+    z-index: 100;
+}
+
+.volumeButtons > .muteButton {
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.volumeButtons #mute, .volumeButtons #unmute {
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.topIcons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.poster iframe {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    visibility: hidden;
+}
+
+.poster_container:hover .downContent {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.poster_container:hover .poster > img {
+    visibility: hidden;
+}
+
+.poster_container:hover .poster iframe {
+    visibility: visible;
+}
+
+.poster_container:hover .topIcons {
+    display: none;
+}
+
+.volumeDisplay {
+    display: flex;
+}
+
+.poster_container:hover {
+    z-index: 10;
+    transform: scale(1.25);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-delay: 0.1s;
+}
+
+.downContent > .videoSummary {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 15px;
+}
+
+.downContent {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 20px 20px;
+    background: #000;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.downContent > h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.downContent > .trending {
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.contentButtons {
+    display: flex;
+    gap: 4px;
+}
+
+.downContent .second, .downContent .third {
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.svg, .downContent .third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg {
+    vertical-align: middle;
+}
+
+.downContent > .primeBag {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
