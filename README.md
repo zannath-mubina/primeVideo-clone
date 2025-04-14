@@ -6,8 +6,8 @@ The project allows users to browse popular, trending, and top-rated movies and T
 
 **Features**
 
-  Browse popular, trending, and top-rated movies & TV shows
-  Watch trailers using embedded YouTube players via TMDB video keys
-  Beautiful and responsive UI with movie posters and hover effects
-  Smart filtering and dynamic loading using React hooks
-  Fully responsive design suitable for all screen sizes
+Browse popular, trending, and top-rated movies & TV shows.
+Watch trailers using embedded YouTube players via TMDB video keys.
+Beautiful and responsive UI with movie posters and hover effects.
+Smart filtering and dynamic loading using React hooks.
+Fully responsive design suitable for all screen sizes.
