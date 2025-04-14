@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/primeVideo-clone/static/css/main.58a7cbbb.css",
+    "main.js": "/primeVideo-clone/static/js/main.12be50bb.js",
+    "static/media/homeImage2.jpg": "/primeVideo-clone/static/media/homeImage2.cf81eaf4317c5127422b.jpg",
+    "static/media/homeImage1.jpg": "/primeVideo-clone/static/media/homeImage1.b5eca383b6146537c963.jpg",
+    "index.html": "/primeVideo-clone/index.html",
+    "main.58a7cbbb.css.map": "/primeVideo-clone/static/css/main.58a7cbbb.css.map",
+    "main.12be50bb.js.map": "/primeVideo-clone/static/js/main.12be50bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58a7cbbb.css",
+    "static/js/main.12be50bb.js"
+  ]
+}
